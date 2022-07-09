@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0 220px;
+    background-color: rgb(205, 255, 208);
+    box-shadow: 0px 10px 27px -22px rgba(0, 0, 0, 0.98)
+}
+
+header{
+    height: 100px;
+    padding-top: 20px;
+    background-color: whitesmoke;
+    
+}
+
+header ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+header ul li{
+    list-style: none;
+}
+
+.logo{
+    height: 85px;
+}
+
+main{
+   
+    justify-content: space-around;
+    text-align: center;
+    background-color: whitesmoke;
+    padding: 20px;
+}
+
+main h1{
+    padding: 20px;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+.content-aside{
+    width: 50%;
+}
+
+.all-form{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(104, 248, 94);
+    width: 400px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 10px 43px -22px rgba(0, 0, 0, 0.98)
+
+}
+
+.all-form input{
+    font-size: medium;
+    padding: 3px;
+    outline: none;
+}
+
+.head-form-nome {
+    padding: 10px 0;
+    text-align: start;
+}
+
+.head-form-nome input{
+    width: 300px;
+}
+
+.head-form-email{
+    padding: 10px 0;
+    text-align: start;
+}
+.head-form-email input{
+    width: 300px;
+}
+
+.head-form-tel{
+    padding: 10px 0;
+    text-align: start;
+}
+.head-form-tel input{
+    width: 300px;
+}
+
+.body-form-all{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+    padding: 10px;
+    align-self: center;
+    font-size: medium;
+    
+}
+
+.body-form-all legend{
+    padding: 10px;
+}
+
+.body-form{
+    display: flex;
+    margin: 5px;
+    padding: 5px;
+    width: 120px;
+    text-align: end;
+}
+.body-form label{
+    padding: 0 20px;
+}
+
+.btn{
+   margin: 10px;
+   padding: 10px 50px;
+}
+
+.wpp-cta{
+    display: flex;
+    position: absolute;
+    width: 80px;
+    align-items: flex-start;
+
+}
+
+footer{
+    padding: 10px;
+    text-align: center;
+    background-color: whitesmoke;
+    box-shadow: 0px 10px 27px -22px rgba(0, 0, 0, 0.98)
+}
