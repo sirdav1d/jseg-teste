@@ -125,7 +125,6 @@ main h1{
 .btn-aside{
     
         padding: 10px;
-        width: 200px;
         background-color: var(--verde2);
         border: none;
         color: whitesmoke;
@@ -257,8 +256,8 @@ main h1{
 }
 
 .btn-vantagens {
-        padding: 50px 10px 30px 10px;
-        width: 200px;
+        margin-top: 40px;
+        padding: 10px;
         background-color: var(--verde2);
         border: none;
         color: whitesmoke;
@@ -280,7 +279,7 @@ main h1{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 30px 100px;
+    margin: 20px 50px 0 50px;
 
 }
 .departamentos-type p{
@@ -293,15 +292,15 @@ main h1{
 }
 
 .btn-dep{
+    margin-top: 40px;
     padding: 10px;
-    width: 200px;
     background-color: var(--verde2);
     border: none;
     color: whitesmoke;
     font-weight: bolder;
     text-decoration: none;
     cursor: pointer;
-    margin: 40px;
+
 }
 
 
@@ -323,7 +322,7 @@ main h1{
     display: flex;
     flex-direction: column;
     align-items: center;
-    box-shadow: 0px -10px 27px -22px rgba(0, 0, 0, 0.98);
+    box-shadow: 0px -10px 27px -22px rgb(0, 0, 0);
 }
 
 .finish-lp h2{
@@ -403,11 +402,23 @@ footer{
     .container-vantagens h3{
     font-size: 1rem;
 }
+    .container-dep{
+    padding-top: 30px;
+    margin: 0;
+}
+
+.container-dep h3{
+    margin: 0;
+    padding: 0;
+    padding-top: 20px;
+}
     .departamentos-type{
-    padding: 25px 10px;
+    padding: 25px 0px;
+    margin: 15px;
 }
     .departamentos-type img{
-    max-height: 100px;
+    max-height: 80px;
+    margin: 0 10px
 }
     .departamentos-type p{
     font-size: .7rem;
