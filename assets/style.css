@@ -68,7 +68,7 @@ header{
     text-decoration: none;
     color: whitesmoke;
     font-weight: bolder;
-    font-size: 1rem;
+    font-size: 16px;
     
 }
 
@@ -89,7 +89,7 @@ main{
 }
 
 main h1{
-    font-size: 1.6rem;
+    font-size: 25px;
     color: var(--preto);
     padding: 25px;
     
@@ -112,9 +112,10 @@ main h1{
     padding: 10px;
     margin-bottom: 15px;
     color: var(--verde);
+    font-size: 17px;
 }
 .content-aside p{
-    font-size: .8rem;
+    font-size: 13px;
 }
 
 .content-aside img{
@@ -123,7 +124,7 @@ main h1{
     padding: 0;
 }
 .btn-aside{
-    
+        font-size: 17px;
         padding: 10px;
         background-color: var(--verde2);
         border: none;
@@ -236,7 +237,7 @@ main h1{
 }
 .container-vantagens h3{
     padding: 15px 5px;
-    font-size: 1.rem;
+    font-size: 1.2rem;
 }
 
 .vantagens-type{
@@ -268,7 +269,7 @@ main h1{
 
 .container-dep{
     padding: 50px 10px 30px 10px;
-    box-shadow: 0px -10px 27px -22px rgb(0, 0, 0);
+    box-shadow: 0px -10px 27px -22px rgba(0, 0, 0, 0.98);
 }
 .container-dep h3{
     font-size: 1.1rem;
