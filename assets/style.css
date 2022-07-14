@@ -4,7 +4,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1rem;
+    scroll-behavior: smooth;
 }
 
 
@@ -12,59 +14,84 @@
     --preto: #262626;
     --amarelo:#D9B166;
     --verde:#225945;
+    --verde2:#03A60E;
 }
 body{
-    margin: 0 12vmax;
-    background-color:var(--verde);
+    padding: 0 12vmax;
+    background-color:var(--verde);  
 
 }
 
 
 header{
     height: 100px;
-    padding-top: 20px;
-    background-color: whitesmoke; 
-    box-shadow: 0px 10px 43px -22px rgb(0, 0, 0);
-    z-index: 9;
-
-    
-}
-
-header ul {
+    box-shadow: 0px 10px 43px -22px rgba(0, 0, 0, 0.98);
+    z-index: 999999999;
     display: flex;
     justify-content: space-around;
     align-items: center;
-    z-index: 9;
+    border: none;
+    margin: 0;
+    padding: 0;
+    transform: perspective(35px);
+    background-color: whitesmoke;   
+}
+
+.header-wpp{
+    height: 30px;
+    margin: 5px;
+}
+
+.header-white{
+    background-color: whitesmoke;
+    width: 70%;
+    height: 100%;
+    padding: 15px;
+ 
+}
+.header-green{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background-color: var(--verde);
+    height: 100%;
+    width: 40%;
+    
+    
     
 }
 
-header ul li{
-    list-style: none;
-    text-align: center;
+.header-green a{
+    text-decoration: none;
+    color: whitesmoke;
     font-weight: bolder;
-    color: var(--preto);
-    justify-content: center;
-    z-index: 9;
+    font-size: 1rem;
+    
 }
-
 
 .logo{
     height: 65px;
+    margin: 0 25px;
 }
 
 main{
     justify-content: space-around;
     text-align: center;
-    background-color: whitesmoke;
-    z-index: 8;
+    background-color:whitesmoke;
+
+    
 
 
 }
 
 main h1{
-    padding: 25px;
     font-size: 1.6rem;
     color: var(--preto);
+    padding: 25px;
+   
 }
 .container{
     display: flex;
@@ -72,8 +99,36 @@ main h1{
 }
 .content-aside{
     width: 50%;
+    margin-top: 10px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    
+}
+.content-aside h3{
+    padding: 10px;
+    margin-bottom: 15px;
+}
+.content-aside p{
+    font-size: .8rem;
 }
 
+.content-aside img{
+    height: 180px;
+    margin-top: 50px;
+    padding: 0;
+}
+.btn-aside{
+    
+        padding: 10px;
+        width: 200px;
+        background-color: var(--verde2);
+        border: none;
+        color: whitesmoke;
+        font-weight: bolder;
+        text-decoration: none;
+        cursor: pointer;
+}
 .all-form{
     display: flex;
     flex-direction: column;
@@ -121,7 +176,7 @@ main h1{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 250px;
+    width: 230px;
     padding: 10px;
     align-self: center;
     font-size: medium;
@@ -130,21 +185,21 @@ main h1{
 
 .body-form-all legend{
     padding: 10px;
-    font-weight: bold;
+
 }
 
 .body-form{
     display: flex;
-    margin: 5px;
-    padding: 5px;
+    margin: 3px;
+    padding: 3px;
     width: 120px;
     text-align: end;
 }
 .body-form label{
-    padding: 0 20px;
+    padding: 0 10px;
 }
 
-.btn{
+.btn-form{
     margin: 25px 0 5px 0;
     padding: 10px 10px;
     width: 200px;
@@ -153,6 +208,7 @@ main h1{
     color: var(--preto);
     font-weight: bolder;
     align-self: center;
+    cursor: pointer;
    
 }
 
@@ -161,7 +217,50 @@ main h1{
     left: 12vmax;
     position: fixed;
     width: 60px;
+    cursor: pointer;
 
+}
+
+.container-vantagens{
+    background-color: gainsboro;
+    margin-top: 30px;
+    padding: 30px 70px;
+    box-shadow: 0px -3px 17px 1px rgba(0, 0, 0, 0.41);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.container-vantagens h3{
+    padding: 10px;
+    font-size: 1.2rem;
+}
+
+.vantagens-type{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 2vmax;
+}
+
+.vantagens-type img{
+    height: 110px;
+    margin-left: 20px;
+}
+
+.vantagens-type p{
+    font-size: .86rem;
+}
+
+.btn-vantagens {
+        padding: 10px;
+        width: 200px;
+        background-color: var(--verde2);
+        border: none;
+        color: whitesmoke;
+        font-weight: bolder;
+        text-decoration: none;
+        cursor: pointer;
 }
 
 footer{
@@ -175,18 +274,68 @@ footer{
 
 @media screen and (max-width: 800px) {
     body {
-        margin: 0;
+        padding: 0;
     }
-    main h1{
-            font-size: 1rem;
+    header{
+        height: 65px;
+    }
+    .header-white{
+        padding: 0;
+    }
+        .header-green{
+            display: flex;
+            padding: 0;
+            align-items: center;
+            justify-content: center;
+        }
+        .header-green a{
+            font-size: .55rem;
             margin: 0;
             padding: 0;
+        }
+        .header-wpp{
+            height: 15px;
+            margin: 4px;
+        }
+
+        .logo{
+            height: 45px;
+            margin: 10px 20px;
+        }
+        
+    main h1{
+            font-size: 1rem;
+            padding: 30px 10px 0px 10px;
+            
         }
     .container{
         flex-direction: column-reverse;
         align-items: center;
         margin: 20px;
     }
+    .content-aside{
+        margin-top: 20px;
+        width: 100%;
+    }
+    .container-vantagens{
+        padding: 30px;
+    }
+    .vantagens-type{
+            padding: 0;
+            margin: 0;
+        }
+    .vantagens-type img{
+        height: 60px;
+        margin: 0;
+        margin-bottom: 5px;
+    }
+    .vantagens-type p{
+    font-size: .6rem;
+}
+    .container-vantagens h3{
+    font-size: 1rem;
+}
+
     .wpp-cta {
             bottom: 20px;
             left: 0;
@@ -194,9 +343,11 @@ footer{
             width: 50px;
     
         }
-    .content-aside{
-                    margin-top: 50px;
-                }
+
+    
+   
+
+
     footer{
             font-size: .4rem;
             box-shadow: 0px 10px 43px -22px rgb(0, 0, 0);
