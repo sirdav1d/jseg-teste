@@ -43,7 +43,7 @@ header{
 }
 
 .header-white{
-    background-color: whitesmoke;
+    background-color: gainsboro;;
     width: 70%;
     height: 100%;
     padding: 15px;
@@ -80,7 +80,7 @@ header{
 main{
     justify-content: space-around;
     text-align: center;
-    background-color:whitesmoke;
+    background-color: gainsboro;;
 
     
 
@@ -192,11 +192,11 @@ main h1{
     display: flex;
     margin: 3px;
     padding: 3px;
-    width: 120px;
+    width: 160px;
     text-align: end;
 }
 .body-form label{
-    padding: 0 10px;
+    padding: 5px;
 }
 
 .btn-form{
@@ -222,7 +222,7 @@ main h1{
 }
 
 .container-vantagens{
-    background-color: gainsboro;
+    background-color: whitesmoke;
     margin-top: 30px;
     padding: 30px 70px;
     box-shadow: 0px -3px 17px 1px rgba(0, 0, 0, 0.41);
@@ -232,8 +232,8 @@ main h1{
     justify-content: center;
 }
 .container-vantagens h3{
-    padding: 10px;
-    font-size: 1.2rem;
+    padding: 15px 5px;
+    font-size: 1.rem;
 }
 
 .vantagens-type{
@@ -261,6 +261,70 @@ main h1{
         font-weight: bolder;
         text-decoration: none;
         cursor: pointer;
+        margin-top: 40px;
+}
+
+.container-dep{
+    margin-top: 30px;
+    padding: 10px;
+}
+.container-dep h3{
+    font-size: 1.1rem;
+    padding: 20px
+}
+
+.departamentos-type{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 100px;
+
+}
+.departamentos-type p{
+    font-size: .8rem;
+}
+
+
+.departamentos-type img{
+    max-width: 170px;
+}
+
+.btn-dep{
+    padding: 10px;
+    width: 200px;
+    background-color: var(--verde2);
+    border: none;
+    color: whitesmoke;
+    font-weight: bolder;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 40px;
+}
+
+
+.finish-lp form{
+    margin-top: 50px;
+}
+
+.finish-lp {
+    color: whitesmoke;
+    text-shadow: 2px 3px 6px #262626;
+    background-image: url(./imgs/jseg-img02.jpg);
+    background-blend-mode: darken;
+    background-color: #26262693;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size:110%;
+    margin-top: 40px;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.finish-lp h2{
+    padding: 20px;
+    font-size: 1.5rem;
 }
 
 footer{
@@ -279,7 +343,7 @@ footer{
     header{
         height: 65px;
     }
-    .header-white{
+        .header-white{
         padding: 0;
     }
         .header-green{
@@ -335,6 +399,15 @@ footer{
     .container-vantagens h3{
     font-size: 1rem;
 }
+    .departamentos-type{
+    padding: 25px 10px;
+}
+    .departamentos-type img{
+    max-height: 100px;
+}
+    .departamentos-type p{
+    font-size: .7rem;
+}
 
     .wpp-cta {
             bottom: 20px;
@@ -342,7 +415,13 @@ footer{
             position: fixed;
             width: 50px;
     
-        }
+}
+
+.finish-lp {
+    background-size: cover;
+    background-position: -300px;
+    padding: 40px 10px;
+}
 
     
    
