@@ -5,7 +5,6 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
-    font-size: 1rem;
     scroll-behavior: smooth;
 }
 
@@ -68,7 +67,7 @@ header{
     text-decoration: none;
     color: whitesmoke;
     font-weight: bolder;
-    font-size: 16px;
+    font-size: 18px;
     
 }
 
@@ -89,7 +88,7 @@ main{
 }
 
 main h1{
-    font-size: 25px;
+    font-size: 32px;
     color: var(--preto);
     padding: 25px;
     
@@ -109,13 +108,14 @@ main h1{
     
 }
 .content-aside h3{
-    padding: 10px;
+    padding: 8px;
     margin-bottom: 15px;
     color: var(--verde);
-    font-size: 17px;
+    font-size: 20px;
 }
 .content-aside p{
-    font-size: 13px;
+    font-size: 16px;
+    padding: 0 10px;
 }
 
 .content-aside img{
@@ -124,7 +124,7 @@ main h1{
     padding: 0;
 }
 .btn-aside{
-        font-size: 17px;
+        font-size: 16px;
         padding: 10px;
         background-color: var(--verde2);
         border: none;
@@ -201,6 +201,7 @@ main h1{
 }
 .body-form label{
     padding: 5px;
+    font-size: 14px;
 }
 
 .btn-form{
@@ -237,23 +238,24 @@ main h1{
 }
 .container-vantagens h3{
     padding: 15px 5px;
-    font-size: 1.2rem;
+    font-size: 24px;
 }
 
 .vantagens-type{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    padding: 0 2vmax;
+    padding: 20px 10px;
 }
 
 .vantagens-type img{
     height: 110px;
-    margin-left: 20px;
+    margin-left: 10px;
 }
 
 .vantagens-type p{
-    font-size: .86rem;
+    font-size: 18px;
+    text-align: center;
 }
 
 .btn-vantagens {
@@ -268,11 +270,11 @@ main h1{
 }
 
 .container-dep{
-    padding: 50px 10px 30px 10px;
+    padding: 40px 10px 40px 10px;
     box-shadow: 0px -10px 27px -22px rgba(0, 0, 0, 0.98);
 }
 .container-dep h3{
-    font-size: 1.1rem;
+    font-size: 24px;
     padding: 20px
 }
 
@@ -280,20 +282,21 @@ main h1{
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin: 20px 50px 0 50px;
+    padding: 25px 15px;
 
 }
 .departamentos-type p{
-    font-size: .8rem;
+    font-size: 18px;
+    text-align: center;
 }
 
 
 .departamentos-type img{
-    max-width: 170px;
+    max-width: 160px;
+    margin: 5px;
 }
 
 .btn-dep{
-    margin-top: 40px;
     padding: 10px;
     background-color: var(--verde2);
     border: none;
@@ -318,7 +321,6 @@ main h1{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size:110%;
-    margin-top: 40px;
     padding: 40px;
     display: flex;
     flex-direction: column;
@@ -372,7 +374,7 @@ footer{
         }
         
     main h1{
-            font-size: 1rem;
+            font-size: 18px;
             padding: 30px 10px 0px 10px;
             
         }
@@ -386,22 +388,21 @@ footer{
         width: 100%;
     }
     .container-vantagens{
-        padding: 30px;
+        padding: 30px 10px;
     }
     .vantagens-type{
-            padding: 0;
-            margin: 0;
+        padding: 15px 5px;
         }
     .vantagens-type img{
-        height: 60px;
+        height: 70px;
         margin: 0;
         margin-bottom: 5px;
     }
     .vantagens-type p{
-    font-size: .6rem;
+    font-size: 12px;
 }
     .container-vantagens h3{
-    font-size: 1rem;
+    font-size: 20px;
 }
     .container-dep{
     padding-top: 30px;
@@ -409,20 +410,21 @@ footer{
 }
 
 .container-dep h3{
-    margin: 0;
+    margin-top: 20px;
     padding: 0;
-    padding-top: 20px;
+    font-size: 20px;
+
 }
     .departamentos-type{
     padding: 25px 0px;
     margin: 15px;
 }
     .departamentos-type img{
-    max-height: 80px;
+    max-height: 85px;
     margin: 0 10px
 }
     .departamentos-type p{
-    font-size: .7rem;
+    font-size: 12px;
 }
 
     .wpp-cta {
@@ -435,7 +437,7 @@ footer{
 
 .finish-lp {
     background-size: cover;
-    background-position: -300px;
+    background-position: -200px;
     padding: 40px 10px;
 }
 
@@ -444,7 +446,7 @@ footer{
 
 
     footer{
-            font-size: .4rem;
+            font-size: 6.5px;
             box-shadow: 0px 10px 43px -22px rgb(0, 0, 0);
         }
 
