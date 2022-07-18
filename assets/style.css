@@ -17,7 +17,7 @@
 }
 body{
     padding: 0 12vmax;
-    background-color:#e4e4c6df;  
+    background-color:#e7e7e5df;  
 
 }
 
@@ -91,6 +91,7 @@ main h1{
     font-size: 32px;
     color: var(--preto);
     padding: 25px;
+    padding-top: 40px;
     
    
 }
