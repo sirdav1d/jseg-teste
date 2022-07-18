@@ -260,7 +260,7 @@ main h1{
 }
 
 .btn-vantagens {
-        margin-top: 40px;
+        margin: 20px;
         padding: 10px;
         background-color: var(--verde2);
         border: none;
@@ -300,6 +300,7 @@ main h1{
 
 .btn-dep{
     padding: 10px;
+    margin: 20px;
     background-color: var(--verde2);
     border: none;
     color: whitesmoke;
@@ -438,8 +439,9 @@ footer{
 }
 
 .finish-lp {
-    background-position: -280px;
+    
     background-size: cover;
+    background-position: -40vmax;
     padding: 40px 10px;
 }
 
