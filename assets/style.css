@@ -320,12 +320,12 @@ main h1{
 .finish-lp {
     color: whitesmoke;
     text-shadow: 2px 3px 6px #262626;
-    background-image: url(./imgs/jseg-img02.jpg);
+    background-image: url(./imgs/jseg-img-teste2.jpg);
     background-blend-mode: darken;
     background-color: #26262693;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-size:110%;
+    background-size:cover;
     padding: 40px;
     display: flex;
     flex-direction: column;
@@ -441,9 +441,9 @@ footer{
 }
 
 .finish-lp {
-    
+    background-image: url(./imgs/jseg-img-teste2.jpg);
+    background-position: center;
     background-size: cover;
-    background-position: -50vmax;
     padding: 40px 10px;
 }
 
