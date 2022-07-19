@@ -16,7 +16,7 @@
     --verde2:#03A60E;
 }
 body{
-    padding: 0 12vmax;
+    padding: 0 14vmax;
     background-color:#e7e7e5df;  
 
 }
@@ -221,7 +221,7 @@ main h1{
 
 .wpp-cta{
     bottom: 35px;
-    left: 12vmax;
+    left: 14vmax;
     position: fixed;
     width: 60px;
     cursor: pointer;
@@ -236,7 +236,7 @@ main h1{
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-start;
 }
 .container-vantagens h3{
     padding: 15px 5px;
@@ -245,9 +245,9 @@ main h1{
 
 .vantagens-type{
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-start;
     align-items: center;
-    padding: 20px 10px;
+    padding: 20px;
 }
 
 .vantagens-type img{
@@ -272,6 +272,7 @@ main h1{
 }
 
 .container-dep{
+    justify-content: flex-start;
     padding: 40px 10px 60px 10px;
     box-shadow: 0px -10px 30px -22px rgba(0, 0, 0, 0.98);
 }
@@ -282,7 +283,7 @@ main h1{
 
 .departamentos-type{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: flex-start;
     align-items: center;
     padding: 25px 85px;
 
