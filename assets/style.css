@@ -283,7 +283,6 @@ main h1 {
 .content-cta {
   display: flex;
   align-items: center;
-  margin-top: 10px;
   padding: 30px 15px;
   background-color: var(--verde);
   box-shadow: 0px -10px 30px -22px rgba(0, 0, 0, 0.98);
