@@ -239,14 +239,14 @@ main h1 {
   display: block;
   margin: 10px auto;
   padding: 10px;
-  width: 180px;
+  width: 220px;
   background-color: var(--verde2);
   border: none;
   color: whitesmoke;
   font-weight: bolder;
   text-decoration: none;
   cursor: pointer;
-  font-size: 14px;
+  font-size: 18px;
 }
 
 .container-type2 {
@@ -525,6 +525,21 @@ footer {
     position: fixed;
     width: 50px;
   }
+
+  .btn-green {
+  display: block;
+  margin: 10px auto;
+  padding: 10px;
+  width: 180px;
+  background-color: var(--verde2);
+  border: none;
+  color: whitesmoke;
+  font-weight: bolder;
+  text-decoration: none;
+  cursor: pointer;
+  font-size: 14px;
+}
+
   .content-cta {
     padding: 10px;
     margin-left: 0;
@@ -537,7 +552,7 @@ footer {
   }
 
   .slider {
-    width: 270px;
+    width:  295px;
     height: fit-content;
   }
 
@@ -546,19 +561,19 @@ footer {
   }
 
   .slide img {
-    width: 270px;
+    width:  295px;
   }
   .manual-navigation {
-    width: 270px;
+    width:  295px;
   }
 
   .manual-btn {
-    margin-top: 120px;
+    margin-top: 130px;
   }
 
   .navigation-auto {
-    width: 270px;
-    margin-top: 120px;
+    width: 295px;
+    margin-top: 130px;
   }
 
   .finish-lp {
