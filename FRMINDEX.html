@@ -60,69 +60,45 @@
             alt="imagem de segurança"
           />
         </aside>
-        <form action="GET" class="all-form" autocomplete="off">
-          <div class="head-form-nome">
-            <label for="nome1">Nome:<br /></label>
-            <input
-              type="text"
-              name="nome"
-              id="nome1"
-              placeholder="Digite seu nome"
-              required="required"
-            />
+       <form action="GET" class="all-form">
+         
+		  <div class="head-form-nome">
+            <label style="font-size:16px">Nome:<br /></label>
+             {%EDNOME%}
           </div>
 
           <div class="head-form-email">
-            <label for="email1">E-mail:<br /></label>
-            <input
-              type="email"
-              name="email"
-              id="email1"
-              placeholder="Digite seu e-mail"
-              required="required"
-            />
+            <label style="font-size:16px">E-mail:<br /></label>
+			{%EDEMAIL%}
           </div>
 
           <div class="head-form-tel">
-            <label for="tel1">Telefone:<br /></label>
-            <input
-              type="tel"
-              required
-              placeholder="(99) 99999-9999"
-              id="tel1"
-            />
+            <label style="font-size:16px">Telefone:<br /></label>
+			{%EDTELEFONE%}
           </div>
 
-          <fieldset class="body-form-all">
-            <legend>Preciso de ajuda com:</legend>
+       
+            <label style="font-size:16px">Preciso de ajuda com:</label>
 
             <div class="body-form">
-              <input type="checkbox" name="cftv-checkbox" id="cftv1" />
-              <label for="cftv1">CFTV</label>
+				{%CHCFTV%}
             </div>
 
             <div class="body-form">
-              <input type="checkbox" name="alarme-checkbox" id="alarme1" />
-              <label for="alarme1">ALARME</label>
+				{%CHALARME%}
             </div>
 
             <div class="body-form">
-              <input
-                type="checkbox"
-                name="tel-checkbox"
-                id="telefonia1"
-                placeholder="TELEFONIA"
-              />
-              <label for="telefonia1">ACESSO/TELEFONIA</label>
+				{%CHACESSO%}
             </div>
 
             <div class="body-form">
-              <input type="checkbox" name="rede" id="rede1" />
-              <label for="rede1">REDE</label>
+				{%CHREDE%}
             </div>
-          </fieldset>
+         
 
-          <button class="btn-form" type="submit">ENVIAR</button>
+          <button class="btn-form" id="BTNENVIAR">ENVIAR</button>
+		  
         </form>
   
       </div>
@@ -310,69 +286,45 @@
           <h2>DESEJA ENTRAR EM CONTATO?</h2>
         </div>
         <h4>PREENCHA O FORMULÁRIO OU ENTRE EM CONTATO DIRETAMENTE PELO WHATSAPP!</h4>
-       <form action="GET" class="all-form" autocomplete="off">
-          <div class="head-form-nome">
-            <label for="nome2">Nome:<br /></label>
-            <input
-              type="text"
-              name="nome"
-              id="nome2"
-              placeholder="Digite seu nome"
-              required="required"
-            />
+      <form action="GET" class="all-form">
+         
+		  <div class="head-form-nome">
+            <label style="font-size:16px">Nome:<br /></label>
+             {%EDNOME%}
           </div>
 
           <div class="head-form-email">
-            <label for="email2">E-mail:<br /></label>
-            <input
-              type="email"
-              name="email"
-              id="email2"
-              placeholder="Digite seu e-mail"
-              required="required"
-            />
+            <label style="font-size:16px">E-mail:<br /></label>
+			{%EDEMAIL%}
           </div>
 
           <div class="head-form-tel">
-            <label for="tel2">Telefone:<br /></label>
-            <input
-              type="tel"
-              required
-              placeholder="(99) 99999-9999"
-              id="tel2"
-            />
+            <label style="font-size:16px">Telefone:<br /></label>
+			{%EDTELEFONE%}
           </div>
 
-          <fieldset class="body-form-all">
-            <legend>Preciso de ajuda com:</legend>
+       
+            <label style="font-size:16px">Preciso de ajuda com:</label>
 
             <div class="body-form">
-              <input type="checkbox" name="cftv-checkbox" id="cftv2" />
-              <label for="cftv2">CFTV</label>
+				{%CHCFTV%}
             </div>
 
             <div class="body-form">
-              <input type="checkbox" name="alarme-checkbox" id="alarme2" />
-              <label for="alarme2">ALARME</label>
+				{%CHALARME%}
             </div>
 
             <div class="body-form">
-              <input
-                type="checkbox"
-                name="tel-checkbox"
-                id="telefonia2"
-                placeholder="TELEFONIA"
-              />
-              <label for="telefonia2">ACESSO/TELEFONIA</label>
+				{%CHACESSO%}
             </div>
 
             <div class="body-form">
-              <input type="checkbox" name="rede" id="rede2" />
-              <label for="rede2">REDE</label>
+				{%CHREDE%}
             </div>
-          </fieldset>
+         
 
-          <button class="btn-form" type="submit">ENVIAR</button>
+          <button class="btn-form" id="BTNENVIAR">ENVIAR</button>
+		  
         </form>
       </section>
     </main>
