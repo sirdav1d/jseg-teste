@@ -16,7 +16,7 @@
   --verde2: #03a60e;
 }
 body {
-  padding: 0 14vmax;
+  padding: 0 16vmax;
   background-color: gainsboro;
 }
 
@@ -24,7 +24,11 @@ body {
   body{
     padding: 0
   }
+  .wpp-cta{
+    left: 0;
+  }
 }
+
 header {
   height: 100px;
   box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
@@ -70,6 +74,13 @@ header {
 .logo {
   height: 80px;
   margin: 4px 24px 0;
+  opacity: 1;
+  transition: all .4s ease;
+}
+
+.logo:hover{
+ 
+  opacity: .8;
 }
 
 main {
@@ -204,7 +215,7 @@ main h1 {
 
 .wpp-cta {
   bottom: 35px;
-  left: 14vmax;
+  left: 16vmax;
   position: fixed;
   width: 60px;
   cursor: pointer;
@@ -303,9 +314,9 @@ main h1 {
 .content-cta p {
   text-align: center;
   font-weight: bolder;
-  font-size: 25px;
+  font-size: 28px;
   color: whitesmoke;
-  margin-left: 150px;
+  margin-left: 80px;
 }
 
 .container-slider {
