@@ -107,6 +107,7 @@ header{
     font-size: 20px;
     transition: all .4s ease;
     text-align: center;
+    text-shadow: none;
 }
 
 .btn-green:hover {
