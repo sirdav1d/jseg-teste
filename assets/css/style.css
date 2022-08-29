@@ -515,7 +515,7 @@ footer {
     padding: 16px 8px;
   }
   .type1 img {
-    height: 80px;
+    height: 85px;
     margin: 0;
     margin-bottom: 4px;
   }
@@ -539,11 +539,12 @@ footer {
   }
   .type2 {
     flex-direction: column;
-    padding: 25px 8px;
+    padding: 20px 8px;
     margin: 8px;
   }
   .type2 img {
-    height: 112px;
+    height: 120px;
+    object-fit: cover;
     margin: 0;
   }
   .type2 p {
@@ -605,6 +606,7 @@ footer {
     background-position: center;
     background-size: cover;
     padding: 40px 10px;
+    font-size: 12px;
   }
 
   footer {
