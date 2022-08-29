@@ -42,7 +42,7 @@ main{
 }
 
 .logo{
-    margin: 48px;
+    margin: 24px 48px;
     width: 260px;
 }
 
@@ -140,19 +140,18 @@ footer {
 @media screen and (max-width:720px) {
     .logo{
         width:160px;
-        margin: 24px 24px 24px;
+        margin: 24px 24px 16px;
     }
     .headLine{
         font-size: 28px;
     }
 
     .headLine-p{
-        font-size: 12px
+        font-size: 8px
     }
 
     .subHeadLine{
         font-size: 16px;
-        margin: 0 16px
     }
 
     .offer-Cam{
@@ -162,7 +161,7 @@ footer {
 
     .headLine-p{
         font-size: 12px;
-        margin: 8px 8px 8px;
+        margin: 8px 4px 8px;
     }
 
     .btn-green{
