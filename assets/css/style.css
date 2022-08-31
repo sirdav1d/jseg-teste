@@ -310,7 +310,7 @@ main h1 {
   font-weight: bolder;
   font-size: 28px;
   color: whitesmoke;
-  margin-left: 80px;
+  margin: 0px auto;
 }
 
 .container-slider {
@@ -578,7 +578,7 @@ footer {
 
   .content-cta p {
     font-size: 12px;
-    margin: 4px;
+    margin: 0px auto;
   }
 
   .slider {
