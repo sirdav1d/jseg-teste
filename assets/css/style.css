@@ -6,7 +6,6 @@
   box-sizing: border-box;
   font-family: 'Montserrat', sans-serif;
   scroll-behavior: smooth;
-  
 }
 
 :root {
@@ -20,9 +19,6 @@ body {
   background-color: gainsboro;
 }
 
-
-
-
 header {
   height: 100px;
   box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.2);
@@ -33,7 +29,7 @@ header {
   margin: 0;
   padding: 0;
   transform: perspective(100px);
-  background-color: whitesmoke
+  background-color: whitesmoke;
 }
 
 .header-wpp {
@@ -69,19 +65,18 @@ header {
   height: 80px;
   margin: 4px 24px 0;
   opacity: 1;
-  transition: all .4s ease;
+  transition: all 0.4s ease;
 }
 
-.logo:hover{
- 
-  opacity: .8;
+.logo:hover {
+  opacity: 0.8;
 }
 
 main {
   justify-content: space-around;
   text-align: center;
   box-shadow: 0px -10px 30px -22px rgba(0, 0, 0, 0.98);
-  background-color: whitesmoke
+  background-color: whitesmoke;
 }
 
 main h1 {
@@ -127,8 +122,7 @@ main h1 {
   color: whitesmoke;
   width: 300px;
   padding: 20px;
-  box-shadow: 0px 15px 10px  rgba(0, 0, 0, 0.5);
-
+  box-shadow: 0px 15px 10px rgba(0, 0, 0, 0.5);
 }
 
 .all-form input {
@@ -178,11 +172,11 @@ main h1 {
 }
 
 .body-form {
-    display: flex;
-    margin: 4px 0px;
-    padding: 0 4px;
-    width: 220px;
-    text-align: start;
+  display: flex;
+  margin: 4px 0px;
+  padding: 0 4px;
+  width: 220px;
+  text-align: start;
 }
 
 .body-form label {
@@ -201,10 +195,10 @@ main h1 {
   font-weight: bolder;
   align-self: center;
   cursor: pointer;
-  transition: all .4s ease;
+  transition: all 0.4s ease;
 }
 
-.btn-form:hover{
+.btn-form:hover {
   background-color: #ffd17b;
 }
 
@@ -231,31 +225,30 @@ main h1 {
 }
 
 .type1 {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    padding: 20px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 20px;
 }
 
 .type1 img {
-    height: 120px;
-    width: 120px;
-    object-fit: cover;
-    margin: 0 20px;
-    backdrop-filter: drop-shadow(20px 2px 2px black);
+  height: 120px;
+  width: 120px;
+  object-fit: cover;
+  margin: 0 20px;
+  backdrop-filter: drop-shadow(20px 2px 2px black);
 }
 
 .type1 p {
-    font-size: 16px;
-    text-align: justify;
+  font-size: 16px;
+  text-align: justify;
 }
-
 
 .btn-green {
   display: block;
   margin: 10px auto;
   padding: 12px 8px;
-  width:260px;
+  width: 260px;
   background-color: var(--verde2);
   border: none;
   color: whitesmoke;
@@ -263,11 +256,11 @@ main h1 {
   text-decoration: none;
   cursor: pointer;
   font-size: 16px;
-  transition: all .4s ease;
+  transition: all 0.4s ease;
 }
 
-.btn-green:hover{
-  background-color: #01d90f
+.btn-green:hover {
+  background-color: #01d90f;
 }
 
 .container-type2 {
@@ -307,7 +300,9 @@ main h1 {
   align-items: center;
   padding: 30px 15px;
   background-color: var(--verde);
-  box-shadow: 0px 10px 30px -22px rgba(0, 0, 0, 0.98), inset 0px 10px 30px -22px rgba(0, 0, 0, 0.98),inset 0px -10px 30px -22px rgba(0, 0, 0, 0.98);
+  box-shadow: 0px 10px 30px -22px rgba(0, 0, 0, 0.98),
+    inset 0px 10px 30px -22px rgba(0, 0, 0, 0.98),
+    inset 0px -10px 30px -22px rgba(0, 0, 0, 0.98);
 }
 
 .content-cta p {
@@ -358,7 +353,6 @@ main h1 {
 }
 
 .manual-btn {
-  
   background-color: #2626265b;
   cursor: pointer;
   padding: 7px;
@@ -392,7 +386,6 @@ main h1 {
 }
 
 .navigation-auto div {
- 
   padding: 7px;
   border-radius: 10px;
   cursor: pointer;
@@ -448,7 +441,7 @@ main h1 {
   font-size: 1.5rem;
 }
 
-.finish-lp p{
+.finish-lp p {
   margin: 0 16px;
 }
 
@@ -460,6 +453,16 @@ footer {
   box-shadow: 0px -10px 27px -22px rgba(0, 0, 0, 0.98);
   font-size: 0.8rem;
 }
+
+@media screen and (max-width: 960px) {
+  body {
+    padding: 0;
+  }
+  .wpp-cta {
+    left: 0;
+  }
+}
+
 
 @media screen and (max-width: 820px) {
   body {
@@ -506,7 +509,6 @@ footer {
     width: 100%;
   }
   .container-type1 {
-    
     padding: 30px 10px;
   }
   .type1 {
@@ -538,16 +540,18 @@ footer {
     padding: 0;
     font-size: 20px;
   }
+
   .type2 {
     flex-direction: column;
     padding: 24px 16px 8px;
- 
   }
+
   .type2 img {
     height: 120px;
     object-fit: contain;
     margin: 0;
   }
+
   .type2 p {
     font-size: 14px;
     text-align: justify;
@@ -563,9 +567,9 @@ footer {
   }
 
   .btn-green {
-  width: 180px;
-  font-size: 14px;
-}
+    width: 180px;
+    font-size: 14px;
+  }
 
   .content-cta {
     padding: 8px;
@@ -578,7 +582,7 @@ footer {
   }
 
   .slider {
-    width:  295px;
+    width: 295px;
     height: fit-content;
   }
 
@@ -587,10 +591,10 @@ footer {
   }
 
   .slide img {
-    width:  295px;
+    width: 295px;
   }
   .manual-navigation {
-    width:  295px;
+    width: 295px;
   }
 
   .manual-btn {
@@ -616,11 +620,3 @@ footer {
   }
 }
 
-@media screen and (max-width:960px) {
-  body{
-    padding: 0
-  }
-  .wpp-cta{
-    left: 0;
-  }
-}
