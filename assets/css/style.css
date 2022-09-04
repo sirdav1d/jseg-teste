@@ -673,7 +673,8 @@ footer {
         padding: 0px;
         margin: 16px;
         font-size: 14px;
-        text-align: justify;
+        text-align:start;
+        
     }
 
     .containerSetores h1{
