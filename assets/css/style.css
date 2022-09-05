@@ -342,6 +342,7 @@ main h1 {
 .container-type2 span{
     color: #01d90f;
     font-weight: bolder;
+    text-align: start;
 }
 
 .container-type2 p {
@@ -665,15 +666,16 @@ footer {
     }
 
     .container-type2{
-        width: 100%;
-        max-width: 328px;
+        width: 75%;
+        min-width: 316px;
         
     }
     .container-type2 p {
         padding: 0px;
         margin: 16px;
         font-size: 14px;
-        text-align:start;
+        text-align: justify;
+        text-justify: distribute-all-lines
         
     }
 
