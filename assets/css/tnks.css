@@ -38,7 +38,7 @@ header{
 }
 
 main{
-    padding: 0 12px;
+    padding: 0 16px;
 }
 
 .logo{
@@ -71,7 +71,7 @@ main{
 }
 
 .subHeadLine{
-    padding: 4px 8px 0;
+    padding: 16px 8px 0;
     font-size: 24px;
     font-weight: bolder;
     text-align: center;
