@@ -132,7 +132,7 @@ main h1 {
 	flex-direction: column;
 	background-color: var(--verde);
 	color: whitesmoke;
-	width: 300px;
+	width: 368px;
 	padding: 20px;
 	box-shadow: 0px 15px 10px rgba(0, 0, 0, 0.5);
 	margin: 0 auto;
@@ -148,6 +148,11 @@ main h1 {
 .head-form-nome {
 	padding: 10px 0;
 	text-align: start;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	align-items: start;
+	justify-content: space-between;
 }
 
 .head-form-nome input {
@@ -158,6 +163,11 @@ main h1 {
 .head-form-email {
 	padding: 10px 0;
 	text-align: start;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	align-items: start;
+	justify-content: space-between;
 }
 
 .head-form-email input {
@@ -168,6 +178,11 @@ main h1 {
 .head-form-tel {
 	padding: 10px 0;
 	text-align: start;
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	align-items: start;
+	justify-content: center;
 }
 
 .head-form-tel input {

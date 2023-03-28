@@ -1,204 +1,197 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,800;1,900&display=swap');
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
-    color: whitesmoke;
-    text-shadow: .6px 4px 4px rgba(0, 0, 0, 0.475);
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Montserrat', sans-serif;
+	color: whitesmoke;
+	text-shadow: 0px 2px 4px rgba(0, 0, 0, 0.475);
 }
 
-body{
-    background: url("../images/thanks-back.svg");
-    background-blend-mode: darken;
-    background-attachment: fixed;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    overflow-x: hidden;
-    height: 100vh;
-    
+body {
+	background: url('../images/thanks-back.svg');
+	background-blend-mode: darken;
+	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	overflow-x: hidden;
+	height: 100vh;
 }
 
-
-.overlay{
-    min-height: 100vh;
-    height: 100%;
-    background-image: linear-gradient(180deg,rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.1));
-    display: flex;
-    flex-direction: column;
-    
+.overlay {
+	min-height: 100vh;
+	height: 100%;
+	background-image: linear-gradient(
+		180deg,
+		rgba(0, 0, 0, 0.8),
+		rgba(0, 0, 0, 0.1)
+	);
+	display: flex;
+	flex-direction: column;
 }
 
-header{
-    display: flex;
+header {
+	display: flex;
 }
 
-main{
-    padding: 0px 16px;
-
-   
+main {
+	padding: 0px 16px;
 }
 
-.logo{
-    margin: 24px 48px 12px;
-    width: 260px;
+.logo {
+	margin: 24px 48px 12px;
+	width: 260px;
 }
 
-.headLine{
-    margin-top: 4px;
-    font-size: 32px;
-    text-align: center;
+.headLine {
+	margin-top: 4px;
+	font-size: 32px;
+	text-align: center;
 }
 
-.jseg{
-    color:#03a60e;
+.jseg {
+	color: #03a60e;
 }
 
-.container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    
+.container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	height: 110vh;
+	position: relative;
 }
 
 .headLine-p {
-    margin: 4px 0 16px;
-    font-size: 16px;
-    text-align: center;
+	margin: 4px 0 16px;
+	font-size: 16px;
+	text-align: center;
 }
 
-.subHeadLine{
-    padding: 16px 8px 0;
-    font-size: 20px;
-    font-weight: bolder;
-    text-align: center;
+.subHeadLine {
+	padding: 16px 8px 0;
+	font-size: 20px;
+	font-weight: bolder;
+	text-align: center;
 }
 
-.subHeadLine-Promo{
-    color: #03a60e;
+.subHeadLine-Promo {
+	color: #03a60e;
 }
-.offer{
-
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    padding: 16px 0px;
-
+.offer {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	align-items: center;
+	padding: 16px 0px;
 }
 
-.offer-Cam{
-    width: 130px;
-    object-fit: contain;
-    margin: 8px 24px;
+.offer-Cam {
+	width: 130px;
+	object-fit: contain;
+	margin: 8px 24px;
 }
 
-.offer-p{
-    font-size: 16px;
-    font-weight: bolder;
-    text-align: center;
+.offer-p {
+	font-size: 16px;
+	font-weight: bolder;
+	text-align: center;
 }
 
-.offer-price{
-    margin: 8px 0;
-    color: red;
-    font-size: 32px;
-    text-align: center;
+.offer-price {
+	margin: 8px 0;
+	color: red;
+	font-size: 32px;
+	text-align: center;
 }
 
 .btn-green {
-    padding: 8px;
-    width: 240px;
-    background-color:#03a60e ;
-    border: none;
-    color: whitesmoke;
-    font-weight: bolder;
-    text-decoration: none;
-    cursor: pointer;
-    font-size: 16px;
-    transition: all .4s ease;
-    text-align: center;
-    text-shadow: none;
-
+	padding: 8px;
+	width: 240px;
+	background-color: #03a60e;
+	border: none;
+	color: whitesmoke;
+	font-weight: bolder;
+	text-decoration: none;
+	cursor: pointer;
+	font-size: 16px;
+	transition: all 0.4s ease;
+	text-align: center;
+	text-shadow: none;
 }
 
 .btn-green:hover {
-    background-color: #01d90f
+	background-color: #01d90f;
 }
 
 footer {
-    display:flex;
-    color: whitesmoke;
-    padding: 12px;
-    text-align: center;
-    background-color: #262626;
-    bottom: 0px;
-    width: 100%;
-    margin-top: 48px;
-
-
+	display: flex;
+	color: whitesmoke;
+	padding: 12px;
+	text-align: center;
+	background-color: #262626;
+	bottom: 0px;
+	width: 100%;
+	margin-top: 48px;
+	position: absolute;
 }
 
-.text-footer{
-    text-align: center;
-    font-size: 10px;
-    width: 100%;
+.text-footer {
+	text-align: center;
+	font-size: 10px;
+	width: 100%;
 }
 
-@media screen and (max-width:720px) {
-    .logo{
-        width:160px;
-        margin: 24px 24px 16px;
-    }
-    .headLine{
-        font-size: 22px;
-    }
+@media screen and (max-width: 720px) {
+	.logo {
+		width: 160px;
+		margin: 24px 24px 16px;
+	}
+	.headLine {
+		font-size: 22px;
+	}
 
-    .headLine-p{
-        font-size: 8px;
-        padding:0;
-        margin: 0;
-    }
+	.headLine-p {
+		font-size: 8px;
+		padding: 0;
+		margin: 0;
+	}
 
-    .subHeadLine{
-        margin-top: 8px;
-        font-size: 16px;
-    }
+	.subHeadLine {
+		margin-top: 8px;
+		font-size: 16px;
+	}
 
-    .offer{
-        flex-direction: column;
-    }
+	.offer {
+		flex-direction: column;
+	}
 
-    .offer-price{
-        font-size: 24px;
-    }
+	.offer-price {
+		font-size: 24px;
+	}
 
-    .offer-p{
-        font-size: 16px;
-    }
+	.offer-p {
+		font-size: 16px;
+	}
 
-    .offer-Cam{
-        width: 164px;
-        margin: 16px 8px;
-    }
+	.offer-Cam {
+		width: 164px;
+		margin: 16px 8px;
+	}
 
-    .headLine-p{
-        font-size: 10px;
-        margin: 8px 4px 8px;
-    }
+	.headLine-p {
+		font-size: 10px;
+		margin: 8px 4px 8px;
+	}
 
-    .btn-green{
-        width: 200px;
-        font-size: 16px;
-    }
-  
+	.btn-green {
+		width: 200px;
+		font-size: 16px;
+	}
 
-        .text-footer {
-
-            font-size: 8px;
-
-        }
+	.text-footer {
+		font-size: 8px;
+	}
 }
