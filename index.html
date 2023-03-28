@@ -536,77 +536,92 @@
 						PREENCHA O FORMULÁRIO OU ENTRE EM CONTATO DIRETAMENTE PELO WHATSAPP!
 					</p>
 					<form
-						action="tnks.html"
+						action="https://gmail.us21.list-manage.com/subscribe/post?u=c47b60b99b096c2172ccb717f&amp;id=d71bd292bd&amp;f_id=0073afe1f0"
+						method="post"
+						id="mc-embedded-subscribe-form"
+						name="mc-embedded-subscribe-form"
 						class="all-form">
 						<div class="head-form-nome">
-							<label for="nome2">Nome:<br /></label>
+							<label for="nome1">Nome:<br /></label>
 							<input
 								type="text"
-								name="nome"
-								id="nome2"
+								name="LP1NAME"
+								id="nome1"
 								placeholder="Digite seu nome"
 								required="required" />
 						</div>
 
 						<div class="head-form-email">
-							<label for="email2">E-mail:<br /></label>
+							<label for="email1">E-mail:<br /></label>
 							<input
 								type="email"
-								name="email"
-								id="email2"
+								name="EMAIL"
+								id="email1"
 								placeholder="Digite seu e-mail"
 								required="required" />
 						</div>
 
 						<div class="head-form-tel">
-							<label for="tel2">Telefone:<br /></label>
+							<label for="tel1">Telefone:<br /></label>
 							<input
 								type="tel"
 								required
+								name="LP1PHONE"
 								placeholder="(99) 99999-9999"
-								id="tel2" />
+								id="tel1" />
 						</div>
-
-						<fieldset class="body-form-all">
-							<legend>Preciso de ajuda com:</legend>
-
-							<div class="body-form">
+						<div
+							style="display: flex; width: 100%; gap: 12px; margin-top: 20px">
+							<div>
+								<label for="res">Residência</label>
 								<input
-									type="checkbox"
-									name="cftv-checkbox"
-									id="cftv2" />
-								<label for="cftv2">CFTV</label>
+									type="radio"
+									value="Residencia"
+									checked
+									name="LP1LOCAL"
+									id="res" />
 							</div>
 
-							<div class="body-form">
+							<div>
+								<label for="cond">Condomínio</label>
 								<input
-									type="checkbox"
-									name="alarme-checkbox"
-									id="alarme2" />
-								<label for="alarme2">ALARME</label>
+									type="radio"
+									value="Condominio"
+									name="LP1LOCAL"
+									id="cond" />
 							</div>
-
-							<div class="body-form">
+							<div>
+								<label for="empresa">Empresa</label>
 								<input
-									type="checkbox"
-									name="tel-checkbox"
-									id="telefonia2"
-									placeholder="TELEFONIA" />
-								<label for="telefonia2">ACESSO/TELEFONIA</label>
+									type="radio"
+									value="Empresa"
+									name="LP1LOCAL"
+									id="empresa" />
 							</div>
-
-							<div class="body-form">
-								<input
-									type="checkbox"
-									name="rede"
-									id="rede2" />
-								<label for="rede2">REDE</label>
-							</div>
-						</fieldset>
+						</div>
+						<div style="margin-top: 20px">
+							<label
+								for="sol"
+								style="padding: 0px 40px"
+								>Soluções</label
+							>
+							<select
+								name="LP1SOL"
+								id="sol">
+								<option value="CFTV">CFTV</option>
+								<option value="REDE">REDE</option>
+								<option value="ALARME">ALARME</option>
+								<option value="ACESSO">ACESSO</option>
+								<option value="SOLAR">SOLAR</option>
+								<option value="TELEFONE">TELEFONE</option>
+								<option value="SMART HOME">SMART HOME</option>
+							</select>
+						</div>
 
 						<button
 							class="btn-form"
-							type="submit">
+							type="submit"
+							href="./pagetnks/tnks.html">
 							ENVIAR
 						</button>
 					</form>
